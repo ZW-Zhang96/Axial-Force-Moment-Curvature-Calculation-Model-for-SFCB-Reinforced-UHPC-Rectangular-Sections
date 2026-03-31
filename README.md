@@ -7,14 +7,10 @@ The calculation applies curvature increments step by step. At a given curvature,
 
 ## Included Files
 - `GUI.py`: Main program with Graphical User Interface (Python source code).
-- `GUI.exe`: Standalone executable file ready to run (Windows).
-- `GUI_Code.txt`: Plain text code for easy copy-pasting into Word documents.
-- `MNPHI.m`: The original MATLAB algorithm file.
 - `MNPHI.py`: The basic Python translation of the MATLAB algorithm.
 
 ## Usage Instructions
-1. Double-click to run `GUI.exe`.
-2. Input the cross-sectional geometric parameters, concrete parameters (supports switching between UHPC and NSC), and double-row reinforcement parameters in the top panel.
-3. Click "Start Calculation" to begin the analysis.
-4. Once the calculation is complete, the Moment-Curvature curve will be automatically plotted in the bottom-left area.
-5. Check the desired data indicators in the bottom-right panel, and click "Export to Excel" to export the full-process data.
+1. Input the cross-sectional geometric parameters, concrete parameters (supports switching between UHPC and NSC), and double-row reinforcement parameters in the top panel.
+2. Click "Start Calculation" to begin the analysis.
+3. Once the calculation is complete, the Moment-Curvature curve will be automatically plotted in the bottom-left area.
+4. Check the desired data indicators in the bottom-right panel, and click "Export to Excel" to export the full-process data.
